@@ -9,6 +9,12 @@ import java.util.Scanner;
 
 public class BlackJack {
 
+    // Removed Array to use ArrayList
+    // private static Card[] cards = new Card[52];
+
+    // private static int currentCardIndex = 0;
+    // private static int suitIndex = 0;
+
     private static List<Card> cards = new ArrayList<>(); // Use ArrayList to manage the deck - Kylie
     private static int currentCardIndex = 0; // Index to keep track of the next card to deal - Kylie
 
